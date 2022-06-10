@@ -2,9 +2,8 @@ output "key_name" {
   value = aws_key_pair.deployer.key_name
 }
 
-output "region" {
-    value = aws.region
-    
+output "east" {
+  value = module.east.region
 }
 
 output "key_id" {
