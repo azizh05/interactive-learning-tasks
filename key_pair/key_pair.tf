@@ -1,4 +1,4 @@
-resource "aws_key_pair" "deployer" {
-  key_name   = "ilearning"
-  public_key = file("~/.ssh/id_rsa.pub")
+resource "aws_key_pair" "ilearning" {
+  key_name   = "ilearning-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDZAxBWNwP2rCsQOFus6mcyd9cFSyoZCByjnGem6crDgyEj2CmSu6yD0e9hIio8QHz7hE1Z1OkK8Q0B9jpFTOV3aXc9fMF+ZL7WxWCCnT46W8UEi87GOMOJLVynegMHI8n+xj0xEsogfeEbqU5tZAehy+UEDQyhylFDsO5TQOIsQOddv51R1TRdsXxPtZ+JwtYiQo1Ou/ia6EhcxHUmPHZAx4QAEj4+gJw3EVlFu57JHWII5ah0AR/AY/LqiS2PfjNcPjnimOzhr80Cp9ixHOXd9H+xlOFw1MQPxzxwyeUQwqRobCvjwLYOl4EDtC2rD+fFzPiujs0qcU6xnNB/ZRLe5QcymguQLmHaGw5pLDJNemOikLujtCxbWgev80PpRM5we50inr/eH18ixJMlH2rhN2fD1ljmDbPyQlyJ9RRJbJeVu7wb986oNo8cI2tBXoynigLM5mrIM6qYHplD2nMeGsrCRixveSrZmAxPn7x/TqXTa6g9JKvWGnq85rlOOl8= azizh05@bastion"
 }
